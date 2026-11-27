@@ -1,0 +1,11 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; background: #eaf0e6; color: #202f28; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(1100px, 100%); margin: auto; padding: clamp(24px, 7vw, 96px); display: grid; gap: 2.5rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr)); align-items: center; min-height: 100svh; }
+h1 { font-family: Georgia, serif; font-weight: normal; font-size: clamp(3rem, 7vw, 6rem); letter-spacing: -.065em; line-height: .98; margin: 0 0 1.5rem; }
+p { line-height: 1.6; font-size: 1.12rem; max-width: 34ch; }
+form { display: grid; gap: 1rem; padding: clamp(20px, 4vw, 44px); background: #fffef7; border-radius: 1.5rem; box-shadow: 0 18px 60px #19151312; }
+label { display: grid; gap: .45rem; font-weight: 650; }
+input { width: 100%; border-radius: .6rem; border: 1px solid #777; padding: .7rem; font: inherit; }
+button { border: 0; padding: .85rem; background: #265741; color: white; border-radius: .65rem; font: inherit; font-weight: 700; cursor: pointer; }
+output { display: block; font-size: 1.35rem; font-weight: 750; min-height: 2em; }

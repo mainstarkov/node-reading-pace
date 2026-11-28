@@ -1,5 +1,7 @@
 # Читать в своём темпе
 
+**[Попробовать демо](https://mainstarkov.github.io/node-reading-pace/)**
+
 Помогает понять, сколько страниц читать каждый день, чтобы закончить книгу к выбранному сроку.
 
 [Открыть демо](https://mainstarkov.github.io/node-reading-pace/)
